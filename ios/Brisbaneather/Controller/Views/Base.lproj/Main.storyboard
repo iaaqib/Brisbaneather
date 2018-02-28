@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y3V-wy-dwP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Brisbaneather-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="kZ1-ia-sjX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJS-Vv-Pgc">
+                                <rect key="frame" x="113.5" y="436.5" width="148" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.60392156860000001" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jK8-ye-smH"/>
+                                    <constraint firstAttribute="width" constant="148" id="kWF-91-jlx"/>
+                                </constraints>
+                                <state key="normal" title="Load Weather">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadWeatherAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lb9-Re-33Y"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3PX-ok-sOv">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.60392156860000001" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hJS-Vv-Pgc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="125" id="0e1-t0-Jh0"/>
+                            <constraint firstItem="hJS-Vv-Pgc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HCh-HQ-BKw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kZ1-ia-sjX" secondAttribute="bottom" id="IuY-yR-anp"/>
+                            <constraint firstItem="3PX-ok-sOv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kuw-G0-RGd"/>
+                            <constraint firstItem="kZ1-ia-sjX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YhR-jq-ZZ2"/>
+                            <constraint firstItem="3PX-ok-sOv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="flB-L4-78g"/>
+                            <constraint firstItem="kZ1-ia-sjX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pM0-ig-qAl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kZ1-ia-sjX" secondAttribute="trailing" id="tuT-9U-Rdi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Brisbaneather" id="9od-rs-GXt"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="3PX-ok-sOv" id="vWO-Zt-y2C"/>
+                        <outlet property="loadWeatherOutlet" destination="hJS-Vv-Pgc" id="NNv-yF-VQQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="99.400299850074973"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DqW-yJ-9SS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y3V-wy-dwP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yga-st-cKn">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="J8L-dI-MHw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cG-4W-4Ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sunny_cloud" width="600" height="600"/>
+    </resources>
+</document>

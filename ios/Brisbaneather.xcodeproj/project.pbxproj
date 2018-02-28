@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201338B7AB615D9CFEDBCFB /* libPods-Brisbaneather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904DA5C6F5286B4C32B0D4B5 /* libPods-Brisbaneather.a */; };
+		7B568E592045CB4700AB48AE /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B568E582045CB4700AB48AE /* NetworkConfig.m */; };
+		7B568E682045F9AA00AB48AE /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B568E672045F9AA00AB48AE /* Utility.m */; };
+		7B568E6C2045FB8100AB48AE /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B568E6B2045FB8100AB48AE /* ViewModel.m */; };
+		7B568E6F2046BB6A00AB48AE /* CallBackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B568E6E2046BB6A00AB48AE /* CallBackManager.m */; };
+		7B568E722046CA9700AB48AE /* RNCardViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B568E712046CA9700AB48AE /* RNCardViewModule.m */; };
+		7B7A00352045C7EA001F7326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A00342045C7EA001F7326 /* AppDelegate.m */; };
+		7B7A00382045C7EA001F7326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A00372045C7EA001F7326 /* ViewController.m */; };
+		7B7A003B2045C7EA001F7326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A00392045C7EA001F7326 /* Main.storyboard */; };
+		7B7A003D2045C7EA001F7326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A003C2045C7EA001F7326 /* Assets.xcassets */; };
+		7B7A00402045C7EA001F7326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A003E2045C7EA001F7326 /* LaunchScreen.storyboard */; };
+		7B7A00432045C7EA001F7326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A00422045C7EA001F7326 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		257EFF9CE7F79AB1DD14C267 /* Pods-Brisbaneather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brisbaneather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brisbaneather/Pods-Brisbaneather.debug.xcconfig"; sourceTree = "<group>"; };
+		7B568E572045CB4700AB48AE /* NetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
+		7B568E582045CB4700AB48AE /* NetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
+		7B568E662045F9AA00AB48AE /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		7B568E672045F9AA00AB48AE /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		7B568E692045FA9700AB48AE /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7B568E6A2045FB8100AB48AE /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		7B568E6B2045FB8100AB48AE /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		7B568E6D2046BB6A00AB48AE /* CallBackManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallBackManager.h; sourceTree = "<group>"; };
+		7B568E6E2046BB6A00AB48AE /* CallBackManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallBackManager.m; sourceTree = "<group>"; };
+		7B568E702046CA9700AB48AE /* RNCardViewModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCardViewModule.h; sourceTree = "<group>"; };
+		7B568E712046CA9700AB48AE /* RNCardViewModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCardViewModule.m; sourceTree = "<group>"; };
+		7B7A00302045C7EA001F7326 /* Brisbaneather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brisbaneather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7A00332045C7EA001F7326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B7A00342045C7EA001F7326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B7A00362045C7EA001F7326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B7A00372045C7EA001F7326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B7A003A2045C7EA001F7326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B7A003C2045C7EA001F7326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B7A003F2045C7EA001F7326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B7A00412045C7EA001F7326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7A00422045C7EA001F7326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904DA5C6F5286B4C32B0D4B5 /* libPods-Brisbaneather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brisbaneather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C0B0FD5B5C3E12BB5D27C4 /* Pods-Brisbaneather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brisbaneather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brisbaneather/Pods-Brisbaneather.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B7A002D2045C7EA001F7326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201338B7AB615D9CFEDBCFB /* libPods-Brisbaneather.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46025902F7C6EE245AC2C94F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				257EFF9CE7F79AB1DD14C267 /* Pods-Brisbaneather.debug.xcconfig */,
+				92C0B0FD5B5C3E12BB5D27C4 /* Pods-Brisbaneather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B568E732046E65C00AB48AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E6A2045FB8100AB48AE /* ViewModel.h */,
+				7B568E6B2045FB8100AB48AE /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B568E742046E67500AB48AE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E572045CB4700AB48AE /* NetworkConfig.h */,
+				7B568E582045CB4700AB48AE /* NetworkConfig.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7B568E752046E6AF00AB48AE /* RNModuleView */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E772046E6EE00AB48AE /* CallBackManager */,
+				7B568E762046E6C600AB48AE /* RNCardView */,
+			);
+			path = RNModuleView;
+			sourceTree = "<group>";
+		};
+		7B568E762046E6C600AB48AE /* RNCardView */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E702046CA9700AB48AE /* RNCardViewModule.h */,
+				7B568E712046CA9700AB48AE /* RNCardViewModule.m */,
+			);
+			path = RNCardView;
+			sourceTree = "<group>";
+		};
+		7B568E772046E6EE00AB48AE /* CallBackManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E6D2046BB6A00AB48AE /* CallBackManager.h */,
+				7B568E6E2046BB6A00AB48AE /* CallBackManager.m */,
+			);
+			path = CallBackManager;
+			sourceTree = "<group>";
+		};
+		7B568E782046E82F00AB48AE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E662045F9AA00AB48AE /* Utility.h */,
+				7B568E672045F9AA00AB48AE /* Utility.m */,
+				7B568E692045FA9700AB48AE /* Constants.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7B568E792046E85A00AB48AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E7A2046E89A00AB48AE /* Views */,
+				7B568E732046E65C00AB48AE /* ViewModel */,
+				7B7A00362045C7EA001F7326 /* ViewController.h */,
+				7B7A00372045C7EA001F7326 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B568E7A2046E89A00AB48AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B7A00392045C7EA001F7326 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B7A00272045C7EA001F7326 = {
+			isa = PBXGroup;
+			children = (
+				7B7A00322045C7EA001F7326 /* Brisbaneather */,
+				7B7A00312045C7EA001F7326 /* Products */,
+				46025902F7C6EE245AC2C94F /* Pods */,
+				DCBC933481EADFEF50FC77BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B7A00312045C7EA001F7326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B7A00302045C7EA001F7326 /* Brisbaneather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B7A00322045C7EA001F7326 /* Brisbaneather */ = {
+			isa = PBXGroup;
+			children = (
+				7B568E752046E6AF00AB48AE /* RNModuleView */,
+				7B568E792046E85A00AB48AE /* Controller */,
+				7B568E742046E67500AB48AE /* Networking */,
+				7B568E782046E82F00AB48AE /* Helper */,
+				7B7A00332045C7EA001F7326 /* AppDelegate.h */,
+				7B7A00342045C7EA001F7326 /* AppDelegate.m */,
+				7B7A003C2045C7EA001F7326 /* Assets.xcassets */,
+				7B7A003E2045C7EA001F7326 /* LaunchScreen.storyboard */,
+				7B7A00412045C7EA001F7326 /* Info.plist */,
+				7B7A00422045C7EA001F7326 /* main.m */,
+			);
+			path = Brisbaneather;
+			sourceTree = "<group>";
+		};
+		DCBC933481EADFEF50FC77BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904DA5C6F5286B4C32B0D4B5 /* libPods-Brisbaneather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B7A002F2045C7EA001F7326 /* Brisbaneather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7A00462045C7EA001F7326 /* Build configuration list for PBXNativeTarget "Brisbaneather" */;
+			buildPhases = (
+				2FB0924CA091EAAA9377066E /* [CP] Check Pods Manifest.lock */,
+				7B7A002C2045C7EA001F7326 /* Sources */,
+				7B7A002D2045C7EA001F7326 /* Frameworks */,
+				7B7A002E2045C7EA001F7326 /* Resources */,
+				A82855F31F09B6EE11F95657 /* [CP] Embed Pods Frameworks */,
+				57F86FDB57876285683897F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brisbaneather;
+			productName = Brisbaneather;
+			productReference = 7B7A00302045C7EA001F7326 /* Brisbaneather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B7A00282045C7EA001F7326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aaqib Hussain";
+				TargetAttributes = {
+					7B7A002F2045C7EA001F7326 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7B7A002B2045C7EA001F7326 /* Build configuration list for PBXProject "Brisbaneather" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B7A00272045C7EA001F7326;
+			productRefGroup = 7B7A00312045C7EA001F7326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B7A002F2045C7EA001F7326 /* Brisbaneather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B7A002E2045C7EA001F7326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7A00402045C7EA001F7326 /* LaunchScreen.storyboard in Resources */,
+				7B7A003D2045C7EA001F7326 /* Assets.xcassets in Resources */,
+				7B7A003B2045C7EA001F7326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FB0924CA091EAAA9377066E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57F86FDB57876285683897F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brisbaneather/Pods-Brisbaneather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82855F31F09B6EE11F95657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brisbaneather/Pods-Brisbaneather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B7A002C2045C7EA001F7326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B568E722046CA9700AB48AE /* RNCardViewModule.m in Sources */,
+				7B568E6C2045FB8100AB48AE /* ViewModel.m in Sources */,
+				7B7A00382045C7EA001F7326 /* ViewController.m in Sources */,
+				7B7A00432045C7EA001F7326 /* main.m in Sources */,
+				7B568E6F2046BB6A00AB48AE /* CallBackManager.m in Sources */,
+				7B568E682045F9AA00AB48AE /* Utility.m in Sources */,
+				7B568E592045CB4700AB48AE /* NetworkConfig.m in Sources */,
+				7B7A00352045C7EA001F7326 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B7A00392045C7EA001F7326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B7A003A2045C7EA001F7326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B7A003E2045C7EA001F7326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B7A003F2045C7EA001F7326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B7A00442045C7EA001F7326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B7A00452045C7EA001F7326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B7A00472045C7EA001F7326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257EFF9CE7F79AB1DD14C267 /* Pods-Brisbaneather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8EB3JWC4;
+				INFOPLIST_FILE = Brisbaneather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Folly\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GLog\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/boost-for-react-native\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kodesnippets.Brisbaneather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B7A00482045C7EA001F7326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C0B0FD5B5C3E12BB5D27C4 /* Pods-Brisbaneather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8EB3JWC4;
+				INFOPLIST_FILE = Brisbaneather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Folly\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GLog\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/boost-for-react-native\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kodesnippets.Brisbaneather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B7A002B2045C7EA001F7326 /* Build configuration list for PBXProject "Brisbaneather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7A00442045C7EA001F7326 /* Debug */,
+				7B7A00452045C7EA001F7326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7A00462045C7EA001F7326 /* Build configuration list for PBXNativeTarget "Brisbaneather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7A00472045C7EA001F7326 /* Debug */,
+				7B7A00482045C7EA001F7326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B7A00282045C7EA001F7326 /* Project object */;
+}
